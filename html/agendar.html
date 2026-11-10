@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar Viagem - Cláudio Turismo</title>
+    <link rel="stylesheet" href="../css/style-agendar.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cláudio Turismo</h1>
+        <p>Agendamento de Passagem</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="rotas.html">Rotas</a>
+        <a href="embarque.html">Locais de Embarque</a>
+        <a href="agendar.html">Marcar Viagem</a>
+        <a href="cancelar.html">Desmarcar / Contato</a>
+    </nav>
+
+    <main>
+        <h2>Solicitar Reserva de Vaga</h2>
+        <p>Preencha os campos abaixo para agendar a sua viagem entre João Pessoa e Princesa Isabel.</p>
+
+        <form action="contato.html" method="get">
+            <fieldset>
+                <legend>Dados do Passageiro</legend>
+
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="telefone">Telefone / WhatsApp:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="(83) 9XXXX-XXXX" required>
+
+                <label for="trajeto">Selecione o Trajeto:</label>
+                <select id="trajeto" name="trajeto">
+                    <option value="pi-jp">Princesa Isabel (PB) ➔ João Pessoa (PB)</option>
+                    <option value="jp-pi">João Pessoa (PB) ➔ Princesa Isabel (PB)</option>
+                </select>
+
+                <label for="data">Data da Viagem:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="vagas">Quantidade de Passagens:</label>
+                <input type="number" id="vagas" name="vagas" min="1" max="15" value="1">
+
+                <button type="submit" class="btn-enviar">Confirmar Agendamento</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Cláudio Turismo - Contato: (83) 99677-4071</p>
+    </footer>
+
+</body>
+</html>

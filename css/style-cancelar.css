@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #1a252c;
+}
+
+header {
+    background-color: #0d3b66;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    background-color: #f4d35e;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: #0d3b66;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+main {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+h2, h3 {
+    color: #0d3b66;
+}
+
+fieldset {
+    border: 1px solid #c93b2b;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+legend {
+    color: #c93b2b;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.btn-cancelar {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #c93b2b;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-cancelar:hover {
+    background-color: #a82e21;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+
+.contato-direto {
+    text-align: center;
+}
+
+.telefone-destaque {
+    font-size: 24px;
+    color: #0d3b66;
+    background-color: #f4d35e;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #0d3b66;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

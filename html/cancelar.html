@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmarcar Viagem e Contato - Cláudio Turismo</title>
+    <link rel="stylesheet" href="../css/style-cancelar.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cláudio Turismo</h1>
+        <p>Cancelamento e Atendimento Direto</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="rotas.html">Rotas</a>
+        <a href="embarque.html">Locais de Embarque</a>
+        <a href="agendar.html">Marcar Viagem</a>
+        <a href="cancelar.html">Desmarcar / Contato</a>
+    </nav>
+
+    <main>
+        <h2>Desmarcar Viagem Agendada</h2>
+        <p>Caso tenha tido algum imprevisto, informe os dados abaixo para liberar a sua vaga:</p>
+
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>Formulário de Cancelamento</legend>
+
+                <label for="nome-cancelar">Nome Completo do Passageiro:</label>
+                <input type="text" id="nome-cancelar" name="nome-cancelar" placeholder="Nome informado na reserva" required>
+
+                <label for="trajeto-cancelar">Trajeto Agendado:</label>
+                <select id="trajeto-cancelar" name="trajeto-cancelar">
+                    <option value="pi-jp">Princesa Isabel (PB) ➔ João Pessoa (PB)</option>
+                    <option value="jp-pi">João Pessoa (PB) ➔ Princesa Isabel (PB)</option>
+                </select>
+
+                <label for="data-cancelar">Data da Viagem Agendada:</label>
+                <input type="date" id="data-cancelar" name="data-cancelar" required>
+
+                <label for="motivo">Motivo do Cancelamento (Opcional):</label>
+                <textarea id="motivo" name="motivo" rows="4" placeholder="Escreva se desejar..."></textarea>
+
+                <button type="submit" class="btn-cancelar">Enviar Cancelamento</button>
+            </fieldset>
+        </form>
+
+        <hr>
+
+        <section class="contato-direto">
+            <h3>Fale Diretamente Conosco</h3>
+            <p>Se preferir desmarcar ou agendar diretamente por telefone ou WhatsApp, ligue:</p>
+            <div class="telefone-destaque">
+                <strong>(83) 99677-4071</strong>
+            </div>
+            <p>Atendimento direto com Cláudio Turismo.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Cláudio Turismo - Contato: (83) 99677-4071</p>
+    </footer>
+
+</body>
+</html>
